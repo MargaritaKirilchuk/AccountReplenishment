@@ -1,9 +1,8 @@
 public class Main<total> {
     public static void main(String[] args) {
-        boolean replenished = true;
         int bonus;
-        int refill = 1100;
-        if (replenished) {
+        int refill = 100;
+        if (refill >= 1000) {
             bonus = refill / 100;
         } else {
             bonus = 0;
